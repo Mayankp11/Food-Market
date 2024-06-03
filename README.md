@@ -24,7 +24,7 @@ IMP: Do not add credentials in the git source code. The same env variables can b
 The backend application is developed using Java with [SpringBoot](https://spring.io/projects/spring-boot) and uses [Gradle](https://docs.gradle.org/current/userguide/userguide.html) 
 as a build tool. Following are the steps to setup the application locally: 
 1. Clone the source code
-   1. `git clone git@github.com:abhishektiwari98/foodmarket.git`
+   1. `git clone  https://github.com/Mayankp11/Food-Market.git `
    2. Make sure git is installed and configured. Instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). 
 2. Run local build
    1. This requires Gradle setup. Instructions [here](https://gradle.org/install/)
@@ -41,10 +41,6 @@ as a build tool. Following are the steps to setup the application locally:
 # Deployment 
 The project is deployed to [Heroku](https://dashboard.heroku.com/apps) and can be accessed at:  
 https://utsa-food-market.herokuapp.com/
-To login
-use
-email- a@b.com
-password- 123456
 
-IMP: It is important to have Procfile with the following command to enable Heroku to launch the application:   
-`web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/foodmarket-0.0.1-SNAPSHOT.jar`
+# Coursework
+This project is part of the Large-Scale Database Management Course at The University of Texas at San Antonio
